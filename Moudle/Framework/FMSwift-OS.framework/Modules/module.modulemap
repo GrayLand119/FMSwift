@@ -1,0 +1,10 @@
+framework module FMSwift {
+  umbrella header "FMSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module FMSwift.Swift {
+    header "FMSwift-Swift.h"
+}
