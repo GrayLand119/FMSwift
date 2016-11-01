@@ -1,5 +1,5 @@
 # FMSwift
-Package DFU Service into FMSwift, Can use FMSwift.framework instead of iOSDFULibrary for Nordic Bluetooth Chip.
+Package DFU Service and Zip into FMSwift, Can use FMSwift.framework instead of iOSDFULibrary for Nordic Bluetooth Chip.
 如果你的项目是OC工程,在使用Pod iOSDFULibrary时需要使用!use_framework,这会导致其与你Pod项目中其他的一些第三方框架产生冲突,使用FMSwift.framework代替Pod iOSDFULibrary可以解决这些问题.
 
 ### Device Firmware Update
